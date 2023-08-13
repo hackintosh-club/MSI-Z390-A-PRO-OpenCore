@@ -34,8 +34,24 @@
 ### Bios Setup
 
 ```
-
-       
+      
+	SETTINGS  
+	  |-- Advanced
+	     |-- Integrated Graphics Configuration
+	        |-- IGD Multi-Monitor：Enabled
+			|-- DVMT：64MB
+		 |-- USB Configuration
+			|-- XHCI Hand-off：Enabled
+		 |--  Super I0 Configuration
+		       |-- Serial Port：Disabled
+		       |-- LPT Port：Disabled
+	  OC
+	  |-- CPU FeaturesBoot
+	     |-- CFG Lock：Disabled
+		 |-- SW Guard Extensions(SGX)：Disabled
+		Search：secure
+		  |-- Secure Boot：Disabled
+	   
 
 ```
 
