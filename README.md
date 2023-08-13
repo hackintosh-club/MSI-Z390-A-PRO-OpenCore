@@ -30,30 +30,31 @@
 ### BIOS设置
 
 ```
-SETTINGS
-  |-- 高级
-     |-- 内建显示设置
-        |-- 集成多显卡显示：允许
-		|-- 集显共享内存：64MB
-	 |-- USB设置
-		|-- XHCI Hand-off：允许
-	 |-- 超级IO配置
-		|-- 串口IO配置
-	       |-- Serial Port：禁止
-	    |-- 平行（LPT）端口配置
-		   |-- 并口：禁止
-	 |-- 唤醒事件设置
-	    |-- 唤醒事件管理：BIOS
-   |-- 启动	
-	 |-- 启动模式选择：UEFI
 
-OC
-  |-- CPU 特征
-     |-- CFG 锁定：禁止
-	 |-- SW Guard Extensions(SGX)：禁止
-		
-Search：secure
-  |-- 安全启动：关闭
+	
+	SETTINGS  
+	  |-- 高级
+	     |-- 内建显示设置
+	        |-- 集成多显卡显示：允许
+			|-- 集显共享内存：64MB
+		 |-- USB设置
+			|-- XHCI Hand-off：允许
+		 |-- 超级IO配置
+			|-- 串口IO配置
+		       |-- Serial Port：禁止
+		    |-- 平行（LPT）端口配置
+			   |-- 并口：禁止
+		 |-- 唤醒事件设置
+		    |-- 唤醒事件管理：BIOS
+	   |-- 启动	
+		 |-- 启动模式选择：UEFI
+	 OC
+	 	  |-- CPU 特征
+	 	     |-- CFG 锁定：禁止
+	 		 |-- SW Guard Extensions(SGX)：禁止
+	Search：secure
+	  |-- 安全启动：关闭		 
+			 
 
 ```
 
